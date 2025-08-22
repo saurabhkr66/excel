@@ -1,37 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Excel-like Grid in Next.js
 
-## Getting Started
+This project is an Excel-like grid component built with Next.js and React.
+It supports keyboard navigation, inline editing, filtering, sorting, and row/column management — giving a spreadsheet-like experience directly in the browser.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Dynamic Grid: Rows and columns generated dynamically.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Inline Editing: Click any cell and type directly to edit.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Keyboard Navigation:
 
-## Learn More
+Tab → Move to the next cell.
 
-To learn more about Next.js, take a look at the following resources:
+Shift + Tab → Move to the previous cell.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Arrow Keys → Navigate up/down/left/right.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Sorting: Click on the sort button (↕) in any column header to sort ascending/descending.
 
-## Deploy on Vercel
+Filtering: Enter text in column filter input to filter rows dynamically.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Row & Column Deletion: Remove specific rows and columns.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# excel
+Excel-like Headers: Columns labeled A, B, C... and rows numbered 1, 2, 3....
+
+Highlighting: Selected row & column highlighted with distinct background colors.
+
+
+Tech Stack
+
+Next.js
+
+React
+
+[JavaScript (ES6+)]
+
+[CSS / Inline Styling]
